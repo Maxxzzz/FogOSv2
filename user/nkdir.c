@@ -6,37 +6,37 @@
 #define CLEAR_SCREEN "\033[2J"
 #define MOVE_CURSOR_TOP_LEFT "\033[H"
 
-#define SCREEN_WIDTH  80
-#define SCREEN_HEIGHT 24
+#define SCREEN_WIDTH  180
+#define SCREEN_HEIGHT 45
 
 // Closed mouth skull
 const char *skull_closed[] = {
-  "    .-"      "-.   ",
-  "   /           \\  ",
-  "  |,  .-.  .-.  ,| ",
-  "  | )(_o/  \\o_)( | ",
-  "  |/     /\\     \\| ",
-  "  (_     ^^     _) ",
-  "   \\__|IIIIII|__/  ",
-  "    | \\IIIIII/ |   ",
-  "    \\          /   ",
-  "     `--------`    "
-
+    "     .-\"      \"-.",
+    "     /            \\",
+    "    |,  .-.  .-.  ,|",
+    "    | )(_o/  \\o_)( |",
+    "    |/     /\\     \\|",
+    "    (_     ^^     _)",
+    "    \\__|IIIIII|__/",
+    "     | \\IIIIII/ |",
+    "     \\          /",
+    "     `--------`"
 };
+
 
 // Open mouth skull
 const char *skull_open[] = {
-  "   .-"      "-.    ",
-  "   /           \\  ",
-  "  |,  .-.  .-.  ,| ",
-  "  | )(_o/  \\o_)( | ",
-  "  |/     /\\    \\| ",
-  "  (_     ^^     _) ",
-  "   \\__|IIIIII|__/  ",
-  "    |          |   ",
-  "    | \\IIIIII/ |   ",
-  "    \\          /   ",
-  "     `--------`    "
+    "     .-\"      \"-.",
+    "     /            \\",
+    "    |,  .-.  .-.  ,|",
+    "    | )(_o/  \\o_)( |",
+    "    |/     /\\     \\|",
+    "    (_     ^^     _)",
+    "     \\__|IIIIII|__/",
+    "      |          |",
+    "      | \\IIIIII/ |",
+    "      \\          /",
+    "      `--------`"
 };
 
 #define SKULL_HEIGHT (sizeof(skull_closed) / sizeof(skull_closed[0]))
