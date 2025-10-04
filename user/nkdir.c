@@ -172,13 +172,13 @@ char *peacemaker =
 
 int main() {
     print_centered(skull_closed);
-    sleep(40);  // 400ms
+    sleep(1);  //10ms
 
     print_centered(skull_open);
-    sleep(40);  // 400ms
+    sleep(1);  //10ms
 
     print_centered(skull_closed);
-    sleep(80); // 1 second
+    sleep(10); // 100ms
 
     int srand = uptime();
     char *lyrics = 0;
