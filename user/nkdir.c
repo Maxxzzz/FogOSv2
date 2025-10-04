@@ -178,7 +178,7 @@ int main() {
     sleep(1);  //10ms
 
     print_centered(skull_closed);
-    sleep(10); // 100ms
+    sleep(1); // 10ms
 
     int srand = uptime();
     char *lyrics = 0;
