@@ -62,6 +62,10 @@ void print_centered(const char **art) {
         }
         printf("%s\n", art[i]);
     }
+    int	more_padding = 10;
+    for(int i = 0; i < more_padding; i++){
+	    printf("\n");
+    }
 }
 char *duet =
     "[Verse 1]\n"
