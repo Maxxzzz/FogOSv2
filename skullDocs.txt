@@ -2,7 +2,7 @@ NKDIR Docs
 
 The way this utility works is that by misspelling mkdir as nkdir a laughing 
 skull will print and laugh at you. Nothing else happens whatsoever. Why would anything 
-else happen? We tested our code by running kndir and seeing the laughing skull. Then for 
+else happen? We tested our code by running nkdir and seeing the laughing skull. Then for 
 no reason whatsoever we ran ls, mkdir, echo, and grep just for fun. No reasoning at all.
 Happy Hallloween from Steven and Maxx
 
